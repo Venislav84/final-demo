@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: aqua;
+  height: 3rem;
+  border-bottom: 2px solid grey;
+  position: sticky;
+  width: 100%;
+  top: 0;
+}
+.ul {
+  display: flex;
+  list-style: none;
+  gap: 60px;
+  margin-left: 140px;
+}
+.hero {
+  height: 40vh;
+  background-image: url('https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvam9iNjcyLTEzOC1wLWwxbXY3djN6LnBuZw.png?s=Kbz1Cs4nMldH7fU_40LaDE_SvmAwk3yR16Yv2Z_sQII');
+  border: 4mm ridge rgba(211, 220, 50, 0.6);
+}
+
+.view {
+  height: 100vh;
+  text-align: center;
+  border-bottom: 2px solid grey;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: aqua;
+  height: 3rem;
+}
+.nav-li {
+  padding-right: 8px;
+  border-right: 2px solid black;
+}
+.anchor {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 520;
+}
+.card {
+  border: 4px solid red;
+  border-radius: 20px;
+}
+.buttonOneJoke {
+  padding-left: 15px;
+  padding-top: 40px;
+  background-color: green;
+  border-radius: 6px;
+}
